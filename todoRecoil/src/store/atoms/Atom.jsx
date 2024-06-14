@@ -5,6 +5,7 @@ const todoAtom = atom({
     default: [{
         id: 1,
         todo: "go to gym",
+        isEditable: false,
         completed: false
     }]
 })
