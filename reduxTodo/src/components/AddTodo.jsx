@@ -23,8 +23,9 @@ function AddTodo() {
         value={input}
         placeholder='write your todos'
         onChange={(e) => setInput(e.target.value)}
+        className=' w-60 rounded-sm'
         />
-        <button className='ml-2' onClick={handleAddTodo}>Add Todo</button>
+        <button className='ml-2 bg-green-400 rounded-md w-20 hover:bg-green-600' onClick={handleAddTodo}>Add Todo</button>
     </div>
     </>
   )

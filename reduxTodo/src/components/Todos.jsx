@@ -34,13 +34,21 @@ function Todos() {
                 value={newInput}
                 onChange={(e) => setNewInput(e.target.value)}
                 />
-                <button onClick={() => handleUpdate(todo.id)}>Done</button>
+                <button onClick={() => handleUpdate(todo.id)} 
+                className=' ml-1 bg-blue-400 w-20 rounded-md hover:bg-blue-500'>
+                  Done</button>
             </div>
           ) : (
             <div className='flex justify-between'>
-                <h2>{todo.text}</h2>
-                <button onClick={() => handleEdit(todo)}>Edit</button>
-                <button onClick={() => handleDelete(todo.id)}>Remove</button>
+                <h2 className='flex flex-1'>{todo.text}</h2>
+                <div>
+                  <button onClick={() => handleEdit(todo)} 
+                  className=' bg-yellow-500 p-1 rounded-md w-20 hover:bg-yellow-600 '>
+                    Edit</button>
+                  <button onClick={() => handleDelete(todo.id)} 
+                  className='bg-red-500 p-1 rounded-md w-20 hover:bg-red-600'>
+                    Remove</button>
+                </div>
             </div>
           ) }
         </div>
