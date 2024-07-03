@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "title": "Post1",
+      "body": "Some random posters",
+      "userId": 23,
+      "id": "1"
+    },
+    {
+      "title": "Post2",
+      "body": "Some random posters part 2",
+      "userId": 235,
+      "id": "2"
+    },
+    {
+      "id": 185.07770146475022,
+      "title": "he",
+      "body": "xdbdb",
+      "userId": 172.66638109089172
+    },
+    {
+      "id": 255.90117068380368,
+      "title": "jhvbj",
+      "body": "kjbvksv",
+      "userId": 950.342571614425
+    },
+    {
+      "id": 399.3068673860489,
+      "title": "helloofoo",
+      "body": "hi there",
+      "userId": 639.6198756535351
+    }
+  ]
+}
